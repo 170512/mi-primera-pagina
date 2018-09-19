@@ -1,14 +1,16 @@
 * {
-  border: 1px solid red;
+
+}
+
+body {
+  background-image: url(http://www.hdfondos.eu/preview/get_photo/772654/1920/1080);
 }
 
   img {
-  width:200px;
-  margin:10px;
-  border:10px solid green;
-  padding:10px;
+  width:250px;
   display:inline-block;
   vertical-align:top;
+  margin: 30px;
 }
 
 .descripcion {
@@ -21,11 +23,11 @@
   vertical-align:top;
 }
 
-h1 {
+.titulos {
   text-align:center;
-  margin:50px;
-  border:3px solid black;
-  padding:20px;
+  margin:30px;
+  border:5px solid black;
+  padding:10px;
 }
 
 .links {
@@ -34,14 +36,50 @@ h1 {
   width:50%;
 }
 
-.descripcion2 {
-  color:green;
+.descripcion {
+  color:white;
   font-family: sans-serif;
   text-align:center;
+  font-size: 30px;
 }
 
 .article {
   display:inline-block;
   width:70%;
   vertical-align:top;
+}
+
+.titulos h1 {
+  font-size: 100px;
+  color: white;
+}
+
+.titulos h2 {
+  font-size: 60px;
+  color: white;
+}
+
+.LogoFace {
+  width: 50px;
+  display:inline-block;
+  margin: 30px;
+}
+
+.LogoInsta {
+  width: 50px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align:
+}
+
+.RS {
+  color:red;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+  border: 2px solid white;
+  display: inline-block;
+  width: 12%;
+  padding: 5px;
+
 }
